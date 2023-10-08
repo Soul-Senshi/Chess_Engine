@@ -11,7 +11,7 @@ import java.util.List;
 
 public class Knight extends Piece {
 
-    private final int[] LEGAL_MOVE_CANDIDATES = {-17, -15, -10, -6, 6, 10, 15, 17}; int i = 0;
+    private final int[] LEGAL_MOVE_CANDIDATES = {-17, -15, -10, -6, 6, 10, 15, 17};
     Knight(final int piecePosition,final Alliance pieceAlliance) {
         super(piecePosition, pieceAlliance);
     }
